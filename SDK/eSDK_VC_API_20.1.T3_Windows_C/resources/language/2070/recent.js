@@ -1,0 +1,22 @@
+module.exports={
+    "CALLRECORD_CALLING":"Ligar",
+    "CHART_TYPE_FILE":"Ficheiro",
+    "CONTACT_HAS_NO_USERNAME":"O contacto não tem um nome de utilizador.",
+    "CONVERSATION":"Mensagens",
+    "CREATE_NEW_GROUP":"Novo grupo",
+    "FILES":"Ficheiros",
+    "MARK_AS_READ":"Marcar como lida",
+    "MARK_AS_UNREAD":"Marcar como não lida",
+    "MOBIL_CHART":"Conversa",
+    "RECENT_CONTACTS":"Contactos recentes",
+    "RECENT_DELETE_CHECK_EDITOR":"A caixa de texto está preenchida. Tem a certeza de que pretende eliminá-la?",
+    "RECENT_DELETE_CHECK_FILE_TRANSFER":"O ficheiro está a ser transferido. Eliminar o chat irá interromper a transferência de ficheiros. Tem a certeza de que pretende eliminá-lo?",
+    "YOU_HAVE_DISSOLVED_OR_LEFT_THE_GROUP":"Dispensou ou saiu do grupo.",
+    "NO_CHAT":"Sem conversa disponível. Clique em \"+\" no canto superior direito para criar uma.",
+    "MULTIDEVICE_PC_LOGINED":"Iniciou sessão no cliente no PC.",
+    "MOBILE_MULTIDEVICE_PC_LOGINED": "Bloudlink, el cliente.",
+    "BUTTON_ADD":"Adicionar",
+    "COMMON_DELETE":"Eliminar",
+    "SELECT_FROM_CONTACTS":"Selecione entre os contatos",
+    "NOTIFICATION_BAR_UNREAD":"[{0} não lida]"
+}

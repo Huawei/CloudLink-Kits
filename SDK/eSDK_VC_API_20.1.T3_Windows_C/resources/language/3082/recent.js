@@ -1,0 +1,22 @@
+module.exports={
+    "CALLRECORD_CALLING":"Llamada",
+    "CHART_TYPE_FILE":"Archivo",
+    "CONTACT_HAS_NO_USERNAME":"El contacto no tiene un nombre de usario.",
+    "CONVERSATION":"Mensajes",
+    "CREATE_NEW_GROUP":"Nuevo grupo",
+    "FILES":"Archivos",
+    "MARK_AS_READ":"Marcar como leído",
+    "MARK_AS_UNREAD":"Marcar como no leído",
+    "MOBIL_CHART":"Chat",
+    "RECENT_CONTACTS":"Contactos recientes",
+    "RECENT_DELETE_CHECK_EDITOR":"El cuadro de texto contiene contenido. ¿Confirma que desea borrarlo?",
+    "RECENT_DELETE_CHECK_FILE_TRANSFER":"El archivo está siendo transferido. Eliminar el chat interrumpirá la transferencia de archivos. ¿Confirma que desea borrarlo?",
+    "YOU_HAVE_DISSOLVED_OR_LEFT_THE_GROUP":"Usted ha descartado o abandonado el grupo.",
+    "NO_CHAT":"No hay chats disponibles. Haga clic en “+” en el extremo superior derecho para crear uno.",
+    "MULTIDEVICE_PC_LOGINED":"Ha iniciado sesión en el cliente de ordenador.",
+    "MOBILE_MULTIDEVICE_PC_LOGINED":"Bloudlink, el cliente.",
+    "BUTTON_ADD":"Añadir",
+    "COMMON_DELETE":"Eliminar",
+    "SELECT_FROM_CONTACTS":"Selecciona de contactos",
+    "NOTIFICATION_BAR_UNREAD":"[{0} no leído]"
+}

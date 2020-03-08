@@ -1,0 +1,23 @@
+module.exports={
+    "SEARCH_VIEW_MORE":"Más",
+    "SEARCH_NO_MATCH_RESULT":"No se encontraron resultados.",
+    "SEARCH_LOADING":"Cargando…",
+    "FILE_NO_EXIST":"El archivo no existe.",
+    "SEARCH_FRO_EVERYTHING":"Buscar un contacto, grupo, mensaje o archivo",
+    "SEARCH_CANNOT_CHAT_WITH_YOURSELF":"No puede chatear con usted mismo.",
+    "MOBILE_SEARCH":"Buscar",
+    "MOBIL_CONTACT":"Contactos",
+    "HISTORY_MESSAGE":"Mensajes históricos",
+    "DIRECT_CALL":"Llamada ",
+    "CURRENT_NUMBER":"Número actual",
+    "SEE_MORE_GROUPS":"Ver más grupos",
+    "SEARCH_CONTACTS":"Contactos",
+    "SEARCH_GROUP":"Grupos",
+    "SEARCH_CHAT_HISTORY":"Mensajes",
+    "SEARCH_FILE":"Archivos",
+    "SEARCH_YOU_CAN_SEARCH":"Se pueden buscar",
+    "SEARCH_SEE_MORE_CONTACT":"Ver más",
+    "SEARCH_NO_MORE_RESULTS":"No hay más resultados",
+    "NEW_CONT_NUMBER":"Número",
+    "SEARCH_TYPE_A_WORD_TO_SEARCH":"Introduzca una palabra para buscar."
+}

@@ -1,0 +1,22 @@
+module.exports={
+    "CALLRECORD_CALLING":"Chamar",
+    "CHART_TYPE_FILE":"Arquivo",
+    "CONTACT_HAS_NO_USERNAME":"O contato não possui um nome de usuário.",
+    "CONVERSATION":"Mensagens",
+    "CREATE_NEW_GROUP":"Novo grupo",
+    "FILES":"Arquivos",
+    "MARK_AS_READ":"Marcar como lida",
+    "MARK_AS_UNREAD":"Marcar como não lida",
+    "MOBIL_CHART":"Bate-papo",
+    "RECENT_CONTACTS":"Contatos recentes",
+    "RECENT_DELETE_CHECK_EDITOR":"A caixa de texto contém conteúdo. Tem certeza de que deseja excluí-la?",
+    "RECENT_DELETE_CHECK_FILE_TRANSFER":"O arquivo está sendo transferido. A exclusão do bate-papo interromperá a transferência de arquivos. Tem certeza de que deseja excluí-lo?",
+    "YOU_HAVE_DISSOLVED_OR_LEFT_THE_GROUP":"Você descartou ou saiu do grupo.",
+    "NO_CHAT":"Nenhum bate-papo está disponível. Clique em \"+\" no canto superior direito para criar um.",
+    "MULTIDEVICE_PC_LOGINED":"Você fez login no cliente de PC cliente.",
+    "MOBILE_MULTIDEVICE_PC_LOGINED":"CloudLink Você fez login no cliente de PC cliente.",
+    "BUTTON_ADD":"Adicionar",
+    "COMMON_DELETE":"Excluir",
+    "SELECT_FROM_CONTACTS":"Selecione entre os contatos",
+    "NOTIFICATION_BAR_UNREAD":"[{0} não lida]"
+}

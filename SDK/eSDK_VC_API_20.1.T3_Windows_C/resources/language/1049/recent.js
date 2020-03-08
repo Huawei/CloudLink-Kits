@@ -1,0 +1,22 @@
+module.exports={
+    "CALLRECORD_CALLING":"Вызов",
+    "CHART_TYPE_FILE":"Файл",
+    "CONTACT_HAS_NO_USERNAME":"У контакта нет имени пользователя.",
+    "CONVERSATION":"Сообщения",
+    "CREATE_NEW_GROUP":"Новая группа",
+    "FILES":"Файлы",
+    "MARK_AS_READ":"Отметить как прочитанное",
+    "MARK_AS_UNREAD":"Отметить как непрочитанное",
+    "MOBIL_CHART":"Чат",
+    "RECENT_CONTACTS":"Недавние контакты",
+    "RECENT_DELETE_CHECK_EDITOR":"Текстовое поле содержит данные. Удалить?",
+    "RECENT_DELETE_CHECK_FILE_TRANSFER":"Выполняется передача файла. Удаление чата прервет передачу файла. Удалить?",
+    "YOU_HAVE_DISSOLVED_OR_LEFT_THE_GROUP":"Вы закрыли или покинули группу.",
+    "NO_CHAT":"Чаты недоступны. Нажмите + в верхнем правом углу, чтобы создать чат.",
+    "MULTIDEVICE_PC_LOGINED":"Вы вошли в ПК-клиент.",
+    "MOBILE_MULTIDEVICE_PC_LOGINED":"клиент Cloudлинк - клиент был зарегистрирован",
+    "BUTTON_ADD":"Добавить",
+    "COMMON_DELETE":"Удалить",
+    "SELECT_FROM_CONTACTS":"Выбрать из контактов",
+    "NOTIFICATION_BAR_UNREAD":"[{0} непрочитанных]"
+}

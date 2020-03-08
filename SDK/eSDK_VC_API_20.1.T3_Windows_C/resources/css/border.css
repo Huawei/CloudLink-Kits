@@ -1,0 +1,23 @@
+.border-common{
+    border:1px solid #ddd;
+}
+.border-top-and-bottom{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.border-header{
+    border: 1px solid #ccc; 
+}
+.border-header-top-and-bottom{
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+}
+.saparation-without-height-common{
+    height: 1px;
+    background:#ddd;
+    border:0;
+}
+.saparation-with-height-common{
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}

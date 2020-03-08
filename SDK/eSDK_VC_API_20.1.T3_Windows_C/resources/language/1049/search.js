@@ -1,0 +1,23 @@
+module.exports={
+    "SEARCH_VIEW_MORE":"Еще",
+    "SEARCH_NO_MATCH_RESULT":"Нет результатов.",
+    "SEARCH_LOADING":"Загрузка…",
+    "FILE_NO_EXIST":"Файл не существует.",
+    "SEARCH_FRO_EVERYTHING":"Поиск контактов, групп, сообщений или файлов",
+    "SEARCH_CANNOT_CHAT_WITH_YOURSELF":"Нельзя начать чат с самим собой.",
+    "MOBILE_SEARCH":"Поиск",
+    "MOBIL_CONTACT":"Контакты",
+    "HISTORY_MESSAGE":"Архив сообщений",
+    "DIRECT_CALL":"Вызов ",
+    "CURRENT_NUMBER":"Текущий номер",
+    "SEE_MORE_GROUPS":"Посмотреть другие группы",
+    "SEARCH_CONTACTS":"Контакты",
+    "SEARCH_GROUP":"Группы",
+    "SEARCH_CHAT_HISTORY":"Сообщения",
+    "SEARCH_FILE":"Файлы",
+    "SEARCH_YOU_CAN_SEARCH":"Вы можете выполнить поиск",
+    "SEARCH_SEE_MORE_CONTACT":"Посмотреть еще",
+    "SEARCH_NO_MORE_RESULTS":"Нет других результатов.",
+    "NEW_CONT_NUMBER":"Число",
+    "SEARCH_TYPE_A_WORD_TO_SEARCH":"Введите слово для поиска."
+}
