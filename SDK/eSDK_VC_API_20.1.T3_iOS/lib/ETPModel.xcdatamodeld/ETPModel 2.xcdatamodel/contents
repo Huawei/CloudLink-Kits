@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="13A603" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Accounts" representedClassName="Accounts" syncable="YES">
+        <attribute name="accountName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="missCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="callRecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CallRecord" inverseName="belongtoaccount" inverseEntity="CallRecord" syncable="YES"/>
+        <relationship name="contacts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Contact" inverseName="belongtoaccount" inverseEntity="Contact" syncable="YES"/>
+    </entity>
+    <entity name="CallLog" representedClassName="CallLog" syncable="YES">
+        <attribute name="contactName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isMissed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recordDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="belongToMissRecord" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CallRecord" inverseName="misslogs" inverseEntity="CallRecord" syncable="YES"/>
+        <relationship name="belongToRecord" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CallRecord" inverseName="logs" inverseEntity="CallRecord" syncable="YES"/>
+        <relationship name="headofRecord" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CallRecord" inverseName="headLog" inverseEntity="CallRecord" syncable="YES"/>
+    </entity>
+    <entity name="CallRecord" representedClassName="CallRecord" syncable="YES">
+        <attribute name="accountName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isMissed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="missRecordDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recordDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="belongtoaccount" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Accounts" inverseName="callRecords" inverseEntity="Accounts" syncable="YES"/>
+        <relationship name="belongtocontact" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Contact" inverseName="callRecord" inverseEntity="Contact" syncable="YES"/>
+        <relationship name="headLog" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CallLog" inverseName="headofRecord" inverseEntity="CallLog" syncable="YES"/>
+        <relationship name="logs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CallLog" inverseName="belongToRecord" inverseEntity="CallLog" syncable="YES"/>
+        <relationship name="misslogs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CallLog" inverseName="belongToMissRecord" inverseEntity="CallLog" syncable="YES"/>
+    </entity>
+    <entity name="Contact" representedClassName="Contact" syncable="YES">
+        <attribute name="accountName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="letterName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pinyinName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongtoaccount" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Accounts" inverseName="contacts" inverseEntity="Accounts" syncable="YES"/>
+        <relationship name="callRecord" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CallRecord" inverseName="belongtocontact" inverseEntity="CallRecord" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Accounts" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CallLog" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CallRecord" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Contact" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
