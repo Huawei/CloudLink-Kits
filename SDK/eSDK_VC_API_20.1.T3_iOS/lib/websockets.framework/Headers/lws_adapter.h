@@ -1,0 +1,17 @@
+#pragma once
+#include "libwebsockets.h"
+
+#ifdef LWS203
+//typedef lws_write libwebsocket_write ;
+#define libwebsocket_write lws_write
+#define libwebsocket lws
+#define libwebsocket_protocols lws_protocols
+#define libwebsocket_context lws_context
+#define libwebsocket_callback_reasons lws_callback_reasons
+#define libwebsocket_get_internal_extensions lws_get_internal_extensions
+#define libwebsocket_create_context lws_create_context
+//#define libwebsocket_callback_on_writable_all_protocol lws_callback_on_writable_all_protocol
+#define libwebsocket_service lws_service
+#define libwebsocket_context_destroy lws_context_destroy
+#define libwebsocket_client_connect lws_client_connect
+#endif
